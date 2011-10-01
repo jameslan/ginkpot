@@ -1,10 +1,9 @@
 " Vim color file
 " Name:       inkpot.vim
-" Maintainer: Ciaran McCreesh <ciaran.mccreesh@googlemail.com>
-" Homepage:   http://github.com/ciaranm/inkpot/
+" Maintainer: James Lan <jameslan@gmail.com>
+" Homepage:   http://github.com/jameslan/ginkpot/
 "
-" This should work in the GUI, rxvt-unicode (88 colour mode) and xterm (256
-" colour mode). It won't work in 8/16 colour terminals.
+" This should work in the GUI.
 "
 " To use a black background, :let g:inkpot_black_background = 1
 
@@ -81,11 +80,11 @@ if has("gui_running")
     hi DiffDelete     gui=NONE   guifg=#ffffcd   guibg=#6d3030
     hi DiffAdd        gui=NONE   guifg=#ffffcd   guibg=#306d30
 
-    hi Cursor         gui=NONE   guifg=#404040   guibg=#8b8bff
+    hi Cursor         gui=BOLD   guifg=#404040   guibg=#8b8bff
     hi lCursor        gui=NONE   guifg=#404040   guibg=#8fff8b
     hi CursorIM       gui=NONE   guifg=#404040   guibg=#8b8bff
 
-    hi Folded         gui=NONE   guifg=#cfcfcd   guibg=#4b208f
+    hi Folded         gui=NONE   guifg=#7a7a79   guibg=#261642
     hi FoldColumn     gui=NONE   guifg=#8b8bcd   guibg=#2e2e2e
 
     hi Directory      gui=NONE   guifg=#00ff8b   guibg=NONE
@@ -106,7 +105,7 @@ if has("gui_running")
     hi Special        gui=NONE   guifg=#c080d0   guibg=NONE
     hi SpecialChar    gui=NONE   guifg=#c080d0   guibg=#404040
     hi Statement      gui=NONE   guifg=#808bed   guibg=NONE
-    hi Todo           gui=BOLD   guifg=#303030   guibg=#d0a060
+    hi Todo           gui=BOLD   guifg=#000000   guibg=#d0a060
     hi Type           gui=NONE   guifg=#ff8bff   guibg=NONE
     hi Underlined     gui=BOLD   guifg=#df9f2d   guibg=NONE
     hi TaglistTagName gui=BOLD   guifg=#808bed   guibg=NONE
